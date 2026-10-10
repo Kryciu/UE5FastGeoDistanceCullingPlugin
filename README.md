@@ -28,7 +28,7 @@ Enable **Debug View** on the transformer to visualize the configured culling buc
 
 ## Installation
 
-Download the appropriate release and copy the plugin into:
+Download release and copy the plugin into:
 
 ```text
 YourProject/Plugins/FastGeoDistanceCulling
