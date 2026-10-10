@@ -1,0 +1,34 @@
+﻿{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "FastGeoDistanceCulling",
+  "Description": "Adds distance-based culling support to World Partition FastGeo geometry using a custom runtime cell transformer.",
+  "Category": "World Partition",
+  "CreatedBy": "Krystian Pochopień",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "FastGeoDistanceCulling",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "FastGeoDistanceCullingEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "FastGeoStreaming",
+      "Enabled": true
+    }
+  ]
+}
